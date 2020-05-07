@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.header {
+  padding: 170px 30px 80px;
+  height: 100vh;
+  background: url('images/bence-balla-schottner-deGn9vSwXIM-unsplash.jpg') fixed;
+  background-size: cover;
+  font-family: 'Anton', sans-serif;
+}
+
+.site-title-sub {
+  margin: 0 0 30px;
+  letter-spacing: 1px;
+  font-size: 3rem;
+}
+
+.site-title {
+  margin: 50px;
+  font-size: 4.5rem;
+}
+
+.site-description {
+  margin-bottom: 50px;
+  color: #888;
+}
+
+.button {
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: navy;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.about {
+  height: 100vh;
+  padding: 80px 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+.about-text {
+  width: 900px;
+  margin: 10px auto;
+  line-height: 2.5;
+  text-align: left;
+}
+
+.heading {
+  display: inline-block;
+  margin: 5px 0 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  border-bottom: double 4px #999;
+  font-family: 'Anton', sans-serif;
+}
+
+.avatar{
+  border-radius: 50%;
+  width:  200px;
+  height: 200px;
+}
+
+
+.works {
+  height: 100vh;
+  background-color: #383634;
+  padding: 20px 0 10px;
+}
+
+.works-wrapper {
+  display: flex;
+  width: 860px;
+  margin: 10px auto 0;
+}
+
+.work-box {
+  background-color: rgba(100, 100, 100, 0.3);
+  border: 1px solid #333;
+}
+
+.work-image {
+  display: block;
+  width:100%;
+  height:40%;
+}
+
+.github-image {
+  display: block;
+  width: 10%;
+  height: 10%;
+  margin:0 auto;
+}
+
+.work-description {
+  margin: 10px 0;
+}
+
+.work-description__detail{
+  text-align: left;
+  padding:10px;
+}
+
+
+.contact {
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px 0 10px;
+  color: #333;
+}
+
+.contact-wrapper {
+  display: flex;
+  width: 860px;
+  justify-content: space-between;
+  margin: 100px auto 0;
+}
+.contact-icon{
+  margin:30px
+}
+
+.contact-title-sub {
+  margin: 0 0 30px;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
