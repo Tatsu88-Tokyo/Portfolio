@@ -128,7 +128,7 @@ body {
 
 .contact-wrapper {
   display: flex;
-  width: 860px;
+  width: 300px;
   justify-content: space-between;
   margin: 100px auto 0;
 }
